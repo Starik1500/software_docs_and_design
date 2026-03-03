@@ -1,0 +1,489 @@
+<mxGraphModel dx="1773" dy="975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="aM9ryv3xv72pqoxQDRHE-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Медперсонал" vertex="1">
+      <mxGeometry height="900" width="100" x="130" y="40" as="geometry" />
+    </mxCell>
+    <mxCell id="aM9ryv3xv72pqoxQDRHE-2" parent="aM9ryv3xv72pqoxQDRHE-1" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="30" width="10" x="45" y="70" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-280" parent="aM9ryv3xv72pqoxQDRHE-1" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="35" width="10" x="45" y="150" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-281" parent="aM9ryv3xv72pqoxQDRHE-1" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="30" width="10" x="45" y="200" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-36" parent="aM9ryv3xv72pqoxQDRHE-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="40" width="10" x="45" y="270" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-328" parent="aM9ryv3xv72pqoxQDRHE-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="40" width="10" x="45" y="340" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-329" edge="1" parent="aM9ryv3xv72pqoxQDRHE-1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="n0cttWDOuN0ZgTLFI-QS-328" value="Заселяє пацієнта у палату">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="80" y="350" />
+        </Array>
+        <mxPoint x="50" y="320" as="sourcePoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-4" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" target="xPH_FcbGr8-x0Vp6ycz9-2">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="750" y="150" />
+        </Array>
+        <mxPoint x="520" y="130" as="sourcePoint" />
+        <mxPoint x="760" y="130" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-5" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Запит на вільних палат" vertex="1">
+      <mxGeometry relative="1" x="0.2813" y="-3" as="geometry">
+        <mxPoint x="-38" y="-3" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="aM9ryv3xv72pqoxQDRHE-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Система" vertex="1">
+      <mxGeometry height="900" width="80" x="450" y="40" as="geometry" />
+    </mxCell>
+    <mxCell id="aM9ryv3xv72pqoxQDRHE-6" parent="aM9ryv3xv72pqoxQDRHE-5" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="40" width="10" x="35" y="80" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-282" parent="aM9ryv3xv72pqoxQDRHE-5" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="40" width="10" x="35" y="150" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-54" parent="aM9ryv3xv72pqoxQDRHE-5" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="30" width="10" x="35" y="210" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-57" parent="aM9ryv3xv72pqoxQDRHE-5" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="40" width="10" x="35" y="260" as="geometry" />
+    </mxCell>
+    <mxCell id="xPH_FcbGr8-x0Vp6ycz9-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="База даних" vertex="1">
+      <mxGeometry height="900" width="100" x="730" y="40" as="geometry" />
+    </mxCell>
+    <mxCell id="xPH_FcbGr8-x0Vp6ycz9-2" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="40" width="10" x="45" y="100" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-283" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="40" width="10" x="45" y="160" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-59" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="20" width="10" x="45" y="210" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-60" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="40" width="10" x="45" y="240" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-295" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="30" width="10" x="-555" y="680" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-298" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="40" width="10" x="-555" y="730" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-299" edge="1" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="n0cttWDOuN0ZgTLFI-QS-298" value="Ставимо палату у коридорі і поселяємо пацієнта">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="-515" y="760" />
+        </Array>
+        <mxPoint x="-545" y="730" as="sourcePoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-184" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="20" width="10" x="-555" y="620" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-165" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="20" width="10" x="-555" y="590" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-160" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="50" width="10" x="-555" y="500" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-319" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="30" width="10" x="-555" y="830" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-318" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="25" width="10" x="-555" y="780" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-62" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="80" width="10" x="-245" y="390" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-320" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="30" width="10" x="-245" y="780" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-293" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="50" width="10" x="-245" y="670" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-291" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="30" width="10" x="-245" y="620" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-177" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="30" width="10" x="-245" y="580" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-164" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="30" width="10" x="-245" y="535" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-325" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="30" width="10" x="-245" y="820" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-161" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="40" width="10" x="-245" y="480" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-63" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="70" width="10" x="45" y="410" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-162" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="30" width="10" x="45" y="490" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-289" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="30" width="10" x="45" y="590" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-176" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="20" width="10" x="45" y="640" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-294" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="40" width="10" x="45" y="680" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-163" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="30" width="10" x="45" y="540" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-324" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="20" width="10" x="45" y="825" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-153" edge="1" parent="xPH_FcbGr8-x0Vp6ycz9-1" source="n0cttWDOuN0ZgTLFI-QS-162" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" value="">
+      <mxGeometry relative="1" width="160" as="geometry">
+        <Array as="points" />
+        <mxPoint y="500" as="sourcePoint" />
+        <mxPoint x="-235" y="500" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-154" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-153" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="немає" vertex="1">
+      <mxGeometry relative="1" x="0.1955" y="-2" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-155" edge="1" parent="xPH_FcbGr8-x0Vp6ycz9-1" source="n0cttWDOuN0ZgTLFI-QS-161" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="n0cttWDOuN0ZgTLFI-QS-160" value="">
+      <mxGeometry relative="1" width="160" as="geometry">
+        <Array as="points">
+          <mxPoint x="-305" y="510" />
+        </Array>
+        <mxPoint x="-320" y="510" as="sourcePoint" />
+        <mxPoint x="-480" y="490" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-156" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-155" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Вільних палат немає" vertex="1">
+      <mxGeometry relative="1" x="0.1955" y="-2" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-167" edge="1" parent="xPH_FcbGr8-x0Vp6ycz9-1" source="n0cttWDOuN0ZgTLFI-QS-164" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" target="n0cttWDOuN0ZgTLFI-QS-163">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="-170" y="530" as="sourcePoint" />
+        <mxPoint y="535" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-168" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-167" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Створення тимчасового віділення" vertex="1">
+      <mxGeometry relative="1" x="0.2336" y="-3" as="geometry">
+        <mxPoint x="-22" y="-3" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-175" edge="1" parent="xPH_FcbGr8-x0Vp6ycz9-1" source="n0cttWDOuN0ZgTLFI-QS-160" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" target="n0cttWDOuN0ZgTLFI-QS-164" value="">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points" />
+        <mxPoint x="-525" y="555.1800000000001" as="sourcePoint" />
+        <mxPoint x="-305" y="494.82" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-290" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-175" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Створюємо тимчасове відділення для пацієнта" vertex="1">
+      <mxGeometry relative="1" x="0.0175" y="-2" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-178" edge="1" parent="xPH_FcbGr8-x0Vp6ycz9-1" source="n0cttWDOuN0ZgTLFI-QS-289" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="n0cttWDOuN0ZgTLFI-QS-177" value="">
+      <mxGeometry relative="1" width="160" as="geometry">
+        <Array as="points">
+          <mxPoint x="-40" y="595" />
+        </Array>
+        <mxPoint x="35" y="520" as="sourcePoint" />
+        <mxPoint x="-120" y="600" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-179" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-178" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Записано тимчасове відділення" vertex="1">
+      <mxGeometry relative="1" x="0.1955" y="-2" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-180" edge="1" parent="xPH_FcbGr8-x0Vp6ycz9-1" source="n0cttWDOuN0ZgTLFI-QS-177" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="n0cttWDOuN0ZgTLFI-QS-165" value="">
+      <mxGeometry relative="1" width="160" as="geometry">
+        <Array as="points" />
+        <mxPoint x="-270" y="523" as="sourcePoint" />
+        <mxPoint x="-520" y="520" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-181" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-180" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Тимчасове віділення успішно створено" vertex="1">
+      <mxGeometry relative="1" x="0.1955" y="-2" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-185" edge="1" parent="xPH_FcbGr8-x0Vp6ycz9-1" source="n0cttWDOuN0ZgTLFI-QS-291" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" target="n0cttWDOuN0ZgTLFI-QS-176">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="-180" y="600" as="sourcePoint" />
+        <mxPoint x="25" y="619.8" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-186" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-185" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Запис пацієнта у палату" vertex="1">
+      <mxGeometry relative="1" x="0.2336" y="-3" as="geometry">
+        <mxPoint x="-22" y="-3" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-187" edge="1" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="-225" y="620.3366666666666" as="sourcePoint" />
+        <mxPoint x="-225.5" y="620" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-189" edge="1" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" value="">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="-540" y="630" />
+        </Array>
+        <mxPoint x="-545" y="630" as="sourcePoint" />
+        <mxPoint x="-245" y="630" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-292" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-189" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Вписуємо пацієнта у тимчасове відділення" vertex="1">
+      <mxGeometry relative="1" x="-0.1392" y="1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-190" edge="1" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" value="">
+      <mxGeometry relative="1" width="160" as="geometry">
+        <Array as="points">
+          <mxPoint x="-25" y="690" />
+        </Array>
+        <mxPoint x="45" y="690" as="sourcePoint" />
+        <mxPoint x="-235" y="690" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-191" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-190" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Записано тимчасове відділення на пацієнта" vertex="1">
+      <mxGeometry relative="1" x="0.1955" y="-2" as="geometry">
+        <mxPoint x="39" y="2" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-192" edge="1" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" value="">
+      <mxGeometry relative="1" width="160" as="geometry">
+        <Array as="points">
+          <mxPoint x="-350" y="700" />
+        </Array>
+        <mxPoint x="-245" y="700" as="sourcePoint" />
+        <mxPoint x="-545" y="700" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-193" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-192" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Пацієнта записано до тимчасового віділення" vertex="1">
+      <mxGeometry relative="1" x="0.1955" y="-2" as="geometry">
+        <mxPoint x="34" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-26" edge="1" parent="xPH_FcbGr8-x0Vp6ycz9-1" source="n0cttWDOuN0ZgTLFI-QS-62" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="-90" y="430" />
+        </Array>
+        <mxPoint x="-190" y="410" as="sourcePoint" />
+        <mxPoint x="45" y="429.9999999999999" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-27" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Запис що пацієнт вже у палаті" vertex="1">
+      <mxGeometry relative="1" x="0.615" as="geometry">
+        <mxPoint x="-86" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-22" edge="1" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points" />
+        <mxPoint x="-545" y="409.9999999999999" as="sourcePoint" />
+        <mxPoint x="-245" y="410.0434782608696" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-23" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Підтверджуємо що пацієнта заселено у палату" vertex="1">
+      <mxGeometry relative="1" x="0.0874" y="1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-28" edge="1" parent="xPH_FcbGr8-x0Vp6ycz9-1" source="n0cttWDOuN0ZgTLFI-QS-63" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="n0cttWDOuN0ZgTLFI-QS-62" value="">
+      <mxGeometry relative="1" width="160" as="geometry">
+        <Array as="points">
+          <mxPoint y="455" />
+        </Array>
+        <mxPoint x="40" y="420" as="sourcePoint" />
+        <mxPoint x="-230" y="420" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-30" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Пацієнт наразі у палаті" vertex="1">
+      <mxGeometry relative="1" x="-0.05" y="-1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-33" edge="1" parent="xPH_FcbGr8-x0Vp6ycz9-1" source="n0cttWDOuN0ZgTLFI-QS-62" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="n0cttWDOuN0ZgTLFI-QS-61" value="">
+      <mxGeometry relative="1" width="160" as="geometry">
+        <Array as="points">
+          <mxPoint x="-320" y="460" />
+        </Array>
+        <mxPoint x="-270" y="420" as="sourcePoint" />
+        <mxPoint x="-530" y="420" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-34" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Пацієнт на даний момент у палаті" vertex="1">
+      <mxGeometry relative="1" x="0.1955" y="-2" as="geometry">
+        <mxPoint x="37" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-285" edge="1" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" target="n0cttWDOuN0ZgTLFI-QS-61" value="">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="-550" y="400.00333333333333" as="sourcePoint" />
+        <mxPoint x="-240" y="400.00333333333333" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-61" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="90" width="10" x="-555" y="390" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-309" edge="1" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points" />
+        <mxPoint x="-235" y="800.0728571428572" as="sourcePoint" />
+        <mxPoint x="50" y="800.0699999999999" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-310" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-309" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Запис що пацієнт вже у палаті" vertex="1">
+      <mxGeometry relative="1" x="0.615" as="geometry">
+        <mxPoint x="-86" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-311" edge="1" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points" />
+        <mxPoint x="-550" y="790.07" as="sourcePoint" />
+        <mxPoint x="-245" y="790.07" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-312" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-311" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Підтверджуємо що пацієнта заселено у палату" vertex="1">
+      <mxGeometry relative="1" x="0.0874" y="1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-313" edge="1" parent="xPH_FcbGr8-x0Vp6ycz9-1" source="n0cttWDOuN0ZgTLFI-QS-324" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="n0cttWDOuN0ZgTLFI-QS-325" value="">
+      <mxGeometry relative="1" width="160" as="geometry">
+        <Array as="points" />
+        <mxPoint x="45" y="679.64" as="sourcePoint" />
+        <mxPoint x="-190" y="840" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-314" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-313" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Пацієнт наразі у палаті" vertex="1">
+      <mxGeometry relative="1" x="-0.05" y="-1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-315" edge="1" parent="xPH_FcbGr8-x0Vp6ycz9-1" source="n0cttWDOuN0ZgTLFI-QS-325" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="n0cttWDOuN0ZgTLFI-QS-319" value="">
+      <mxGeometry relative="1" width="160" as="geometry">
+        <Array as="points" />
+        <mxPoint x="-260" y="685" as="sourcePoint" />
+        <mxPoint x="-535" y="685" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-316" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-315" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Пацієнт на даний момент у палаті" vertex="1">
+      <mxGeometry relative="1" x="0.1955" y="-2" as="geometry">
+        <mxPoint x="37" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-323" parent="xPH_FcbGr8-x0Vp6ycz9-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+      <mxGeometry height="30" width="10" x="45" y="780" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-2" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-2" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" target="aM9ryv3xv72pqoxQDRHE-6">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="240" y="130" as="sourcePoint" />
+        <mxPoint x="480" y="130" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-3" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Список вільних палат" vertex="1">
+      <mxGeometry relative="1" x="-0.0906" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-166" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="alt" vertex="1">
+      <mxGeometry height="530" width="710" x="110" y="430" as="geometry" />
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-16" edge="1" parent="1" source="n0cttWDOuN0ZgTLFI-QS-54" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" target="n0cttWDOuN0ZgTLFI-QS-59">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="525" y="180" as="sourcePoint" />
+        <mxPoint x="745" y="180" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-17" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Запис пацієнта у палату" vertex="1">
+      <mxGeometry relative="1" x="0.2336" y="-3" as="geometry">
+        <mxPoint x="-22" y="-3" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-10" edge="1" parent="1" source="n0cttWDOuN0ZgTLFI-QS-283" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="n0cttWDOuN0ZgTLFI-QS-282" value="">
+      <mxGeometry relative="1" width="160" as="geometry">
+        <Array as="points">
+          <mxPoint x="700" y="220" />
+        </Array>
+        <mxPoint x="770" y="150" as="sourcePoint" />
+        <mxPoint x="500" y="150" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-11" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Повернення списку вільних палат" vertex="1">
+      <mxGeometry relative="1" x="0.1955" y="-2" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-12" edge="1" parent="1" source="n0cttWDOuN0ZgTLFI-QS-282" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="n0cttWDOuN0ZgTLFI-QS-280" value="">
+      <mxGeometry relative="1" width="160" as="geometry">
+        <Array as="points">
+          <mxPoint x="420" y="200" />
+        </Array>
+        <mxPoint x="480" y="150" as="sourcePoint" />
+        <mxPoint x="200" y="150" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-13" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Показ усіх вільних палат" vertex="1">
+      <mxGeometry relative="1" x="0.1955" y="-2" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-18" edge="1" parent="1" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" value="">
+      <mxGeometry relative="1" width="160" as="geometry">
+        <Array as="points" />
+        <mxPoint x="775" y="309.9999999999999" as="sourcePoint" />
+        <mxPoint x="495" y="309.9999999999999" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-19" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Палата заброньована для пацієнта" vertex="1">
+      <mxGeometry relative="1" x="0.1955" y="-2" as="geometry">
+        <mxPoint x="26" y="2" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-20" edge="1" parent="1" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" value="">
+      <mxGeometry relative="1" width="160" as="geometry">
+        <Array as="points" />
+        <mxPoint x="485" y="329.9999999999999" as="sourcePoint" />
+        <mxPoint x="185" y="329.9999999999999" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-21" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Палату успішно заброньованя під пацієнта" vertex="1">
+      <mxGeometry relative="1" x="0.1955" y="-2" as="geometry">
+        <mxPoint x="46" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-55" edge="1" parent="1" source="n0cttWDOuN0ZgTLFI-QS-281" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" target="n0cttWDOuN0ZgTLFI-QS-54" value="">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="330" y="250" />
+        </Array>
+        <mxPoint x="200" y="180" as="sourcePoint" />
+        <mxPoint x="499.5" y="179.6633333333334" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="n0cttWDOuN0ZgTLFI-QS-284" connectable="0" parent="n0cttWDOuN0ZgTLFI-QS-55" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Вписуємо пацієнта у палату" vertex="1">
+      <mxGeometry relative="1" x="0.0276" y="1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell>
+  </root>
+</mxGraphModel>
