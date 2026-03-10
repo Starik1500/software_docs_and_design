@@ -9,11 +9,24 @@ from hospital_dal.models import Base
 from hospital_dal.repository import DataRepository
 from hospital_bll.services import HospitalService
 
-def generate_csv(file_path, count=1000):
-    print("Генеруємо файл на 1000 рядків...")
+def generate_csv(file_path, count=45):
+    import csv
+    import random
+    from faker import Faker
+    
+    print(f"Генеруємо файл на {count} рядків...")
     fake = Faker('uk_UA')
     ward_numbers = [101, 102, 103, 104, 201, 202, 203, 301, 305]
-    blood_types = ["A(II) Rh+", "A(II) Rh-", "B(III) Rh+", "O(I) Rh+", "AB(IV) Rh+"]
+    doctor_names = [
+        "Dr. Коваленко", "Dr. Бойко", "Dr. Ткачук", "Dr. Кравченко", 
+        "Dr. Олійник", "Dr. Шевченко", "Dr. Мельник", "Dr. Мороз", 
+        "Dr. Лисенко", "Dr. Савченко"
+    ]
+    
+    blood_types = [
+        "O(I) Rh+", "O(I) Rh-", "A(II) Rh+", "A(II) Rh-", 
+        "B(III) Rh+", "B(III) Rh-", "AB(IV) Rh+", "AB(IV) Rh-"
+    ]
 
     with open(file_path, mode='w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
@@ -24,7 +37,7 @@ def generate_csv(file_path, count=1000):
                 fake.date_of_birth(minimum_age=18, maximum_age=80).strftime("%Y-%m-%d"),
                 random.choice(blood_types),
                 random.choice(ward_numbers),
-                f"Dr. {fake.last_name()}"
+                random.choice(doctor_names)
             ])
 
 if __name__ == "__main__":
