@@ -18,9 +18,7 @@ def generate_csv(file_path, count=45):
     fake = Faker('uk_UA')
     ward_numbers = [101, 102, 103, 104, 201, 202, 203, 301, 305]
     doctor_names = [
-        "Dr. Коваленко", "Dr. Бойко", "Dr. Ткачук", "Dr. Кравченко", 
-        "Dr. Олійник", "Dr. Шевченко", "Dr. Мельник", "Dr. Мороз", 
-        "Dr. Лисенко", "Dr. Савченко"
+        "Dr. Старик", "Dr. Батіг", "Dr. Грибовський", "Dr. Кравченко", "Dr. Грабар", "Dr. Шевченко", "Dr. Мельник", "Dr. Мороз", "Dr. Сатана", "Dr. Савченко"
     ]
     
     blood_types = [
@@ -45,7 +43,7 @@ if __name__ == "__main__":
     db_path = "sqlite:///hospital.db"
 
     if not os.path.exists(csv_path):
-        generate_csv(csv_path, 1000)
+        generate_csv(csv_path, 45)
 
     engine = create_engine(db_path)
     Base.metadata.create_all(engine)

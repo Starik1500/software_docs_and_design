@@ -1,7 +1,7 @@
 import csv
 from sqlalchemy.orm import Session
 from .interfaces import IDataRepository
-from .models import Ward, Doctor, Patient
+from .models import Ward, Doctor, Patient, MedicalRecord
 
 class DataRepository(IDataRepository):
     def __init__(self, session: Session):
@@ -51,6 +51,7 @@ class DataRepository(IDataRepository):
         return self.session.query(Ward).filter(Ward.is_free == True).all()
     
     def clear_all_patients(self):
+        self.session.query(MedicalRecord).delete()
 
         self.session.query(Patient).delete()
 
