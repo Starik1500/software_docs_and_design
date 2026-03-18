@@ -1,4 +1,4 @@
 {
-    "output_strategy": "file",
+    "output_strategy": "kafka",
     "csv_file_path": "311_cases_100_data.csv"
 }
