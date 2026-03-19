@@ -1,0 +1,5 @@
+{
+    "output_strategy": "kafka",
+    "csv_file_path": "311_cases_100_data.csv",
+    "firebase_url": "https://strategie-63f07-default-rtdb.europe-west1.firebasedatabase.app/"
+}   
